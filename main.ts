@@ -1,22 +1,7 @@
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Player, function (sprite, otherSprite) {
-    mySprite = sprites.create(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, SpriteKind.Player)
+    if (otherSprite == (false && false)) {
+    	
+    }
 })
 function Controle_de_niveau () {
     if (Niveau == 0) {
@@ -204,7 +189,6 @@ function Controle_de_niveau () {
 let Curseur: Sprite = null
 let Aide: Sprite = null
 let Play: Sprite = null
-let mySprite: Sprite = null
 let Niveau = 0
 Niveau = 0
 Controle_de_niveau()
