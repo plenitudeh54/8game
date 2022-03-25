@@ -467,6 +467,7 @@ function Game_start () {
     controller.moveSprite(Acacio_G)
     Acacio_G.setStayInScreen(true)
     info.setLife(6)
+    Plan_de_niveau()
 }
 function animeFound () {
     heroIdGauche = animation.createAnimation(ActionKind.Walking, 1)
