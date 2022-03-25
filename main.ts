@@ -224,7 +224,7 @@ function Game_start () {
         Esc.setPosition(143, 59)
         Acacio_G.setStayInScreen(true)
         controller.moveSprite(Acacio_G, 100, 100)
-        info.setLife(3)
+        info.setLife(1)
         Plan_de_niveau()
         myEnemy.follow(Acacio_G, 20)
         myennemi2.follow(Acacio_G, 20)
